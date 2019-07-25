@@ -1,0 +1,247 @@
+*{
+    margin: 0;padding: 0;
+}
+#box{
+    width: 1330px;height: 5500px;background-color:#1b252e;
+     margin: 0 auto;overflow: hidden;
+}
+.box1{
+    margin: 0 auto;
+    widows: 1230px;;height:66px;
+    background-color:white;
+    padding: 8px 50px;
+}
+h1{
+    float: left;
+    text-indent: -999em;
+}
+.box1 img{
+    float: left;
+}
+.box1 ul{
+    float: right;
+    list-style-position: inside;
+    list-style-type: none;
+
+}
+li{
+    float: left;widows: 100px;
+    height: 62px; 
+    text-align: center;
+    line-height: 60px;
+    padding: 0px 25px;
+    border: 1px solid white;
+
+}
+.box1 a{
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+.box1 a:hover{
+    color: red;
+
+}
+.box1 li:hover{
+    border-bottom-color: red;
+
+}
+.box3 .box3-1{
+    margin: 55px 70px;float: left;width:60%;height:210px;
+}
+.box3-1 h3{
+    font-size: 24px;color: white;
+    line-height: 24px;margin-bottom: 30px;font-weight: 500;
+}
+.box3-1 p{
+    color: white;line-height: 32px;
+}
+.box3 .box3-2{
+    width: 120px;height: 55px;
+    float: left;margin:auto;background-color: white;text-align: center;line-height: 55px;color: #000;margin-top: 105px;
+}
+.box4{
+    width: 100%;height: 590px;
+    background-color: white;
+    overflow: hidden;
+}
+.box4 .box4-1{
+    margin: 75px;
+}
+.box4-1 h3{
+    font-size: 36px;line-height: 72px;font-weight: 750;margin-bottom: 20px;text-align: center;
+}
+.box4-2-1{
+    float: left;width:200px;height: 230px;margin:45px;
+}
+.box4-2-1 img{
+    margin:0px 35px;
+}
+.box4-2-1 h4{
+    font-size: 22px;line-height: 22px;margin: 15px;text-align: center;font-weight:normal;
+}
+.box4-2-1 p{
+    font-size: 12px;line-height: 12px;color: #999999;text-align: center;
+}
+.box5{
+    width: 100%;height: 720px;
+    overflow: hidden;background-color: #ebebeb;
+}
+.box5 h3{
+    font-size: 30px;line-height: 30px;font-weight: 700;text-align: center;
+    margin-top: 70px;
+}
+.box5 .T{
+    color: #9c9c9c;text-align: center;line-height: 16px;margin-top: 22px;margin-bottom:40px; 
+}
+.box5 .box5-1{
+    width: 1250px;height: 450px;
+    margin: auto;
+}
+.box5 .box5-1 .box5-1-1{
+    width:274px;height: 212px;float: left;
+    margin-right: 28px;margin-bottom: 20px;background-color: white;margin-left: 10px;
+}
+.box5-1-1 img{
+    margin: 17px;margin-bottom: 8px;
+}
+.box5-1-1 p{
+    font-size: 12px;color: #444444;line-height: 12px;text-align: center;
+}
+.box6{
+    width: 100%;height: 430px;background-size: 100% 100%;background-repeat: no-repeat;overflow: hidden;
+}
+.box6 p{
+    color: red;font-size: 60px;font-weight: 700;margin: auto;text-align: center;margin-top: 200px;
+}
+.box6 .zuo{
+    float: left;margin-left: 400px;
+}
+.box6 .you{
+    float: right;margin-right: 400px;
+}
+.box6 .zi{
+    font-size: 28px;color: white;margin-top: 200px;line-height:80px;text-align: center;
+}
+.box7{
+    width: 100%;height: 600px;background-color: white;overflow: hidden;
+}
+.box7 h3{
+    text-align: center;font-size: 30px;line-height: 30px;margin-top: 80px;margin-bottom: 20px;font-weight: 700;
+}
+.box7 .txt{
+    text-align: center;color: #999999;line-height: 16px;margin-bottom: 90px;
+}
+.box7 .box7-1{
+    margin: 0px 135px;
+}
+.box7-1 .box7-1-1{
+    float: left;width: 160px;height: 270px;margin-right: 140px;
+}
+.box7-1 .box7-1-1 img{
+    margin: 0px 22px;
+}
+.box7-1 .box7-1-1 h4{
+    color: red;font-size: 30px;font-weight: 600;line-height: 30px;margin-top: 60px;margin-bottom: 24px;text-align: center
+}
+.box7-1 .box7-1-1 p{
+    color: #999999;line-height: 16px;text-align: center;
+}
+.box8{
+    width: 100%;height: 536px;background-size: 100% 100%;background-repeat: no-repeat;
+}
+.box8 .box8-1{
+    width: 50%;height: 100%;float: right;
+}
+.box8 .box8-1 h4{
+    font-size: 34px;line-height: 34px;margin-top: 148px;margin-left: 94px;
+    font-weight: 600;margin-bottom: 42px;
+}
+.box8 .box8-1 p{
+    color: #999999;line-height: 34px;margin-left: 94px;
+}
+.box8 .box8-1 .box8-1-1{
+    width: 156px;height: 50px;border: 1px #7d7d7d solid;text-align: center;line-height: 50px;margin-top: 72px;margin-left: 94px;
+}
+.box8-1 a{
+    text-decoration: none;
+    color: black;
+}
+.box9{
+    width: 100%;height: 706px;background-color: white;overflow: hidden;
+}
+.box9 h4{
+    text-align: center;margin-top: 85px;font-size: 32px;font-weight: 600;color: #333333;line-height: 32px;margin-bottom: 46px;
+}
+.box9 .txt{
+    text-align: center;color: #666666;line-height: 16px;margin-bottom: 20px;
+}
+.box9 .num{
+    text-align: center;color: #333333;font-size: 20px;line-height: 20px;
+}
+.box9 .box9-1{
+    margin:80px 0px 70px 85px;
+}
+.box9-1 .LL{
+    width: 350px;height: 90px;float: left;border: #cacaca 1px solid;margin-right: 53px;
+}
+.box9-1 .LL img{
+    margin: 28px 38px 28px 48px;float: left;
+}
+.box9-1 .LL .T{
+    margin-top: 30px;line-height: 16px;color: #666666;margin-bottom: 12px;text-decoration: none;
+}
+.box9-1 .LL .XX{
+    font-size: 10px;line-height: 10px;color: #666666;text-decoration: none;
+}
+.box9 .box9-2{
+    width: 100%;height: 240px;overflow: hidden;position: relative;margin-top: 72px;
+}
+.box9-2 .ku{
+    border: 3px solid black;width: 350px;height: 90px;position: absolute;left: 488px;top: 140px;
+}
+.box9-2 .tu{
+    background-color: white;width: 150px;height: 170px;position: absolute;left: 588px;top: 74px;
+}
+.box9-2 .tu img{
+    width: 100%;height: auto;
+}
+.box9-2 .tu p{
+    font-size: 12px;line-height: 12px;color: #666666;text-align: center;
+}
+.box10{
+    background-color: #cfcccc;width: 100%;height: 514px;overflow: hidden;border-bottom: 2px solid #f13a3a;
+}
+.box10 .box10-1{
+    margin-top: 100px;margin-left: 72px;
+}
+.box10-1 .box10-1-1{
+    background-color: white;width: 273px;height: 284px;margin-right: 30px;float: left;
+}
+.box10-1 .box10-1-1 img{
+    width: 100%;height: auto;
+}
+.box10-1 .box10-1-1 h5{
+    text-align: center;line-height: 16px;margin-top: 28px;margin-bottom: 18px; 
+}
+.box10-1 .box10-1-1 p{
+    font-size: 12px;line-height: 12px;color: #777777;text-align: center;
+}
+.box11{
+    width: 100%;height: 260px;overflow: hidden;
+}
+.box11 .box11-1{
+    height: 140px;width: 1180px;margin-left: 73px;border-bottom: #313a43 1px solid;margin-bottom: 30px;
+}
+.box11-1 .box11-1-1{
+    float: left; margin: 72px 82px 44px 63px;
+}
+.box11-1-1 img{
+    float: left;
+}
+.box11-1-1 p{
+    float: left;margin-left: 10px;font-size: 12px;line-height: 24px;color: #8a929c;
+}
+.box11 a{
+    float: left; margin-right: 40px;text-decoration: none;font-size: 12px;line-height: 12px;color: #8a929c;
+}

@@ -1,0 +1,188 @@
+#box a{
+    color: #000;
+}
+#box{
+    height: 100%;height: 100%;
+}
+.center{
+    width: 1240px;height: 100%;text-align: center;margin: auto
+}
+.box1{
+    width: 100%;height: 108px;
+}
+.div-1{
+    width: 33%;height: 100%;float: left;border-right: 1px solid #e5e5e5 25%;position: relative;
+}
+.div-1 .pic_7{
+    background: url(../img/360-images/CSS\ Satyr.png) no-repeat;background-position: -25px -0px; width: 60px; height: 60px; display: block;position: absolute;left: 60px;top: 25px;
+}
+.div-1 .zi{
+    display: block;border-right: 1px solid #e5e5e5;width: 60%;height: 50px;text-align: left;position: absolute;top: 30px;right: 0px;
+}
+.div-1 .zi .din{
+    font-size: 12px;line-height: 24px;
+}
+.div-1 .zi .di{
+    color: #999999;font-size: 12px;
+}
+.div-1 .shuan{
+    background: url(../img/360-images/logos.png) no-repeat;background-position: 0px -75px; width: 142px; height: 60px; display: block;position: absolute;left: 20px;top: 25px;
+}
+.div-1 .san{
+    background: url(../img/360-images/logos.png) no-repeat;background-position: 0px -150px; width: 60px; height: 60px; display: block;position: absolute;left: 60px;top: 25px;
+}
+.div-1 img{
+    position: absolute;bottom: 0px;left: 0px;display: none;
+}
+.box1 .div-1:hover img{
+    display: block;
+}
+.box2{
+    width: 100%;height: 260px;margin-top: 15px
+}
+.box2 .dongtai{
+    width: 900px;height: 100%;float: left;
+}
+.box2 .dongtai h3{
+    display:block;border-left: 2px green solid;float: left;
+}
+.box2 .dongtai h3 a{
+    margin-left: 5px;color: green;line-height: 16px;
+}
+.box2 .dongtai .duo{
+    text-align: right;font-size: 12px;line-height: 24px;
+}
+.box2 .dongtai .duo a{
+    color: #999999;
+}
+.box2 .dongtai .wen1{
+    width: 290px;height: 208px;float: left;margin-right: 10px;border: 1px solid #e5e5e5;margin-top: 15px;
+}
+.box2 .dongtai .wen1 p{
+    line-height: 44px;font-size: 12px;color: #333333;
+}
+.box2 .kuai{
+    width: 330px;height: 100%;float: left;margin-left: 10px;
+}
+.box2 .kuai h3{
+    display:block;border-left: 2px green solid;float: left;
+}
+.box2 .kuai h3 a{
+    margin-left: 5px;color: green;line-height: 16px;
+}
+.box2 .kuai .duo{
+    text-align: right;font-size: 12px;line-height: 24px;
+}
+.box2 .kuai .duo a{
+    color: #999999;
+}
+.box2 .kuai ul{
+    margin-top: 15px;
+}
+.box2 .kuai ul li{
+    width: 105px;height: 100px;border: 1px solid #e5e5e5;float: left;
+}
+.box2 .kuai ul li .pic_1{
+    display: block;margin: 12px auto 0px;background-position: -0px -75px; width: 24px; height: 24px;
+}
+.box2 .kuai ul li a{
+    color: black;font-size: 12px;
+}
+.box2 .kuai ul li .wei{
+    line-height: 24px
+}
+.box2 .kuai ul li .xia{
+    display: inline-block;width: 40px;height: 18px;border: 1px solid #e5e5e5;
+}
+.box2 .kuai ul li .pic_2{
+    display: block;margin: 12px auto 0px;background-position: -0px -50px; width: 24px; height: 24px;
+}
+.box2 .kuai ul li .pic_6{
+    display: block;margin: 12px auto 0px;background-position: -0px -130px; width: 24px; height: 24px;
+}
+.box2 .kuai ul li .pic_3{
+    display: block;margin: 12px auto 0px;background-position: -0px -25px; width: 24px; height: 24px;
+}
+.box3{
+    width: 100%;height: 182px;margin-top: 15px
+}
+.box3 h3{
+    border-left: 2px green solid;text-align: left;
+}
+.box3 h3 a{
+    margin-left: 5px;color: green;line-height: 16px;
+}
+.box3 .ee{
+    width: 400px;height: 140px;float: left;margin-top: 15px;margin-right: 10px;border: 1px solid #e5e5e5;position: relative;
+}
+.box3 .ee span{
+    display: block;width: 100px; height: 100px;position: absolute;top: 20px;left: 30px;background: no-repeat;
+}
+.box3 .ee div{
+    position: absolute;left: 38%;top: 20%;text-align: left;margin-right: 25px
+}
+.box3 .ee h4{
+    font-weight: 600;line-height: 28px;color: #000;
+}
+.box3 .ee p{
+    color: #8a8a8a;font-size: 12px;line-height: 20px;
+}
+.box4{
+    width: 604px;height: 784px;float: left;margin-top: 15px;
+}
+.box4 h3{
+    border-left: 2px green solid;text-align: left;margin-bottom: 15px;
+}
+.box4 h3 a{
+    margin-left: 5px;color: green;line-height: 16px;
+}
+.box4 ul li{
+    width: 300px;height: 140px;border: 1px solid #e5e5e5;float: left;position: relative;
+}
+.box4 li span{
+    display: block; width: 60px;height: 60px;float: left;margin: 40px 20px 40px 30px;
+}
+.box4 li .lala{
+    float: right;font-size: 12px;color: #999999;text-decoration: underline;line-height: 24px
+}
+.box4 li .dian{
+    float: left;margin-top: 44px;margin-right: 25px;
+}
+.box4 li div{
+    float: left;width: 180px;height: 28px;margin-top: 10px;
+}
+.box4 li div p{
+    display: block;width: 70px;height: 100%;border: 1px solid #e5e5e5;margin-right: 15px;float: left;line-height: 28px;
+}
+.box4 li .pic_7{
+    background-position: -25px -0px;
+}
+.box4 li .pic_8 {background-position: -25px -60px; width: 60px; height: 60px; }
+.box4 li .pic_9 {background-position: -25px -120px; width: 60px; height: 60px; }
+.box4 li .pic_10 {background-position: -85px -120px; width: 60px; height: 60px; }
+.box4 li .pic_11 {background-position: -85px -0px; width: 60px; height: 60px; }
+.box4 li .pic_12 {background-position: -85px -60px; width: 60px; height: 60px; }
+.box4 li .pic_55{
+    background: no-repeat;
+}
+.box4 li .pic_88{
+    background: no-repeat;
+}
+.box4 li .p1{
+    display: block;padding: 6px 0px 4px 36px;height: 22px;text-align: left;margin-bottom: 10px;
+}
+.box4 li .p1 b{
+    display: inline;font-size: 12px;line-height: 12px;margin-right: 5px;
+}
+.box4 li .p1 a{
+   display: inline;font-size: 12px;line-height: 12px;margin: 0px 15px;
+}
+.box4 .shan .ping{
+    position: absolute;font-size: 14px;top: 48px;left: 40px;
+}
+.box4 .shan .jia{
+    position: absolute;bottom: 52px;left: 40px;font-size: 12px;color: #fc6721;
+}
+.box4 .shan img{
+    position: absolute;top: 26px;right: 30px;width: 90px;height: 90px;
+}

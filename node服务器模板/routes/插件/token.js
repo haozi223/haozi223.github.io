@@ -7,20 +7,18 @@ const jwt = require('jsonwebtoken');
  * @param {Number} expiresIn    有效期（单位:s）
  */
 
-module.exports = new class {
-    constructor() {
-        //生成token
-        this.secret = '2020-01-09:a79590eb9e2cb2ef372bbc55c34456d9';
-    }
+module.exports = {
+
+    //生成token
+    secret: '2020-01-09:a79590eb9e2cb2ef372bbc55c34456d9',
     create (data, expiresIn = 7) {
-        return jwt.sign({ data }, this.secret, {
+        return jwt.sign({ data }, secret, {
             expiresIn: expiresIn * 60 * 60 * 24
         });
-    }
+    },
     verify (token) {
         try {
-            let result = jwt.verify(token, secret);
-            console.log('token校验：', result)
+            console.log('token校验：', jwt.verify(token, secret))
             return true;
         } catch (err) {
             return false;

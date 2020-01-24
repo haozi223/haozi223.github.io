@@ -16,6 +16,7 @@ module.exports = function (name) {
 // var a1 = new A
 // var a2= new A
 // console.log(a1 === a2)//true
+//消除单例，this指向的单例为null就好，或者A.instance=null
 
 //作用，避免重复实例对象，减少不必要内存消耗,提高运行效率
 //缺点，扩展困难

@@ -5,4 +5,4 @@ module.exports = require('express').Router()
   /* GET users listing. */
   .get('/', function (req, res, next) {
     res.send('respond with a resource');
-  });
+  })

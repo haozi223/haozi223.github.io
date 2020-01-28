@@ -1,4 +1,4 @@
-module.exports = function (name) {
+module.exports = function A (name) {
     // 如果已存在对应的实例
     if (typeof A.instance === 'object')
         return A.instance

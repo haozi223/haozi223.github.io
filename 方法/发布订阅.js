@@ -3,7 +3,7 @@ module.exports = new class {
         this.pood = [];
     }
     add (func) {
-        !this.pood.some(item => item === func) ? this.pood.push(func) : null
+        this.pood.some(item => item === func) ? null : this.pood.push(func)
         return this;
     };
     remove (func) {
@@ -13,12 +13,12 @@ module.exports = new class {
         }
         return this
     };
-    fire (...args) {
+    fire () {
         for (let i = 0; i < this.pood.length; i++) {
             if (typeof this.pood[i] !== 'function') {
                 this.pood.splice(i, 1);
                 i--;
-            } else this.pood[i].call(this, ...args)
+            } else this.pood[i].apply(this, arguments)
         }
     }
 }

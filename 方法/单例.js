@@ -4,7 +4,7 @@ module.exports = function A (name) {
         return A.instance
     else {
         //否则正常创建实例
-        this.name = name
+        if (name) this.name = name
         //此处可用来挂方法，比如this.func=function,name可传进方法，发布订阅也可
 
         // 缓存

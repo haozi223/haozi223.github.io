@@ -15,10 +15,8 @@ module.exports = new class {
     };
     fire () {
         for (let i = 0; i < this.pood.length; i++) {
-            if (typeof this.pood[i] !== 'function') {
-                this.pood.splice(i, 1);
-                i--;
-            } else this.pood[i].apply(this, arguments)
+            if (typeof this.pood[i] !== 'function') this.pood.splice(i--, 1);
+            else this.pood[i].apply(this, arguments)
         }
     }
 }

@@ -10,9 +10,9 @@ import './rem'
 
 Vue.use(vueBus, axios)
 
-Vue.config.productionTip = false;
-Vue.prototype.$qs = qs;
-Vue.prototype.$axios = axios;
+Vue.config.productionTip = false
+Vue.prototype.$qs = qs
+Vue.prototype.$axios = axios
 
 new Vue({
   router,

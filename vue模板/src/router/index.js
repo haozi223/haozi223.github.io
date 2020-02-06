@@ -22,8 +22,5 @@ const routes = [
 
 export default new VueRouter({
   routes,
-  beforeEach (to, from, next) {
-
-  }
+  beforeEach (to, from, next) { }
 })
-

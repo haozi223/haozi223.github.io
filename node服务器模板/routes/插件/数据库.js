@@ -30,11 +30,11 @@ module.exports = {
         })
     },
     //sql
-    sqlquery (sql, condition, callback) {
+    sqlquery (sql, condition = [], callback) {
         return new Promise((res, rej) => {
             pool.getConnection((err, cond) => {
                 if (err) rej({ state: 0, err })
-                cond.query(sql, condition || [], (err, result) => {
+                cond.query(sql, condition, (err, result) => {
                     cond.release();
                     if (err) rej({ state: 0, err })
                     else res({ state: 1, data: callback ? callback(result) : result });
